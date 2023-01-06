@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+body {
+	margin: 0;
+	background: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+	margin: 0;
+}
+
+.row{
+  padding-top: 1em;
+  padding-right: 1em;
+}
+
+  
+
+.titleheader{
+  display: inline-block;
+  color: #000;
+  font-size: 3em;
+  padding-top: 16px;
+  padding-bottom: 1em;
+  padding-left: 3em;
+}
+
+.contact-details{
+  display: inline-block;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  position: relative;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.boxes {
+  padding: 40px;
+  height: auto;
+  background: #a1d8f1;
+  line-height:1.5;
+  background-clip: border-box;
+}
+
+.fa{
+  color: #1998d3;
+}
+
+.fa.symbol{
+  color: #fff;
+}
+
+.titling{
+  font-weight: 600;
+}
+
+.linkage {
+    color: #1998d3 !important; 
+    background-color: transparent;
+    text-decoration: none !important;
+ }
+
+.columnimage{
+  background: "deanbreed.jpg";
+  background-position: center;
+  width:100%;
+  height: auto;
+}
+
+header {
+  background: #1998d3;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 25px;
+
+  position: relative;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #fff;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
