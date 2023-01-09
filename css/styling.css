@@ -10,12 +10,19 @@ body {
   box-sizing: border-box;
 }
 
+.gap{
+  margin-right: 1em;
+}
+
+
 .container {
+  padding-top: 0.5em;
 	margin: 0;
 }
 
 .row{
-  padding-top: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
   padding-right: 1em;
 }
 
@@ -25,15 +32,16 @@ body {
   display: inline-block;
   color: #000;
   font-size: 3em;
-  padding-top: 16px;
-  padding-bottom: 1em;
+  font-weight: bold;
+  /* padding-top: 0.2em;
+  padding-bottom: 0.5em; */
   padding-left: 3em;
 }
 
 .contact-details{
   display: inline-block;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  /* padding-top: 0.2em;
+  padding-bottom: 0.5em; */
   position: relative;
   color: #000;
   font-size: 16px;
@@ -64,13 +72,33 @@ body {
     color: #1998d3 !important; 
     background-color: transparent;
     text-decoration: none !important;
+    padding-right: 5px;
  }
+
+ .big{
+  color: #000 !important;
+}
+
+.paddingclass{
+  padding:10px;
+  margin: 10px;
+  margin-top: 0 !important;
+}
 
 .columnimage{
   background: "deanbreed.jpg";
   background-position: center;
-  width:100%;
+  max-width:100%;
   height: auto;
+}
+
+.projectimage{
+  background: "deanbreed.jpg";
+  background-position: center;
+  max-width:100%;
+  height: auto;
+  /* width: 1070px;
+  height: 687px; */
 }
 
 header {
@@ -92,6 +120,10 @@ nav {
   float: right;
 }
 
+button {
+  display: none;
+}
+
 nav ul {
   margin: 0;
   padding: 0;
@@ -100,8 +132,8 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin-left: 70px;
-  padding-top: 25px;
+  margin-left: 25px;
+  padding-top: 5px;
 
   position: relative;
 }
@@ -111,6 +143,25 @@ nav a {
   text-decoration: none;
   font-size: 14px;
 }
+
+@media (max-width: 768px) 
+ {
+  nav {
+    float: left;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  nav li {
+    display: inline-block;
+    margin-left: 10px;
+    padding-top: 5px;
+  
+    position: relative;
+  }
+ }
 
 nav a:hover {
   color: #fff;
