@@ -7,7 +7,7 @@ const projs = [
         projshorttitle: "Tracker",
         projghshorttitle: "Repository",
         projdates: "November 2020 - December 2022",
-        projdesc: "Dashboard to visualise changes to aid financing over time from a overall, sector and poverty view",
+        projdesc: "Dashboard to visualise changes to aid financing over time from an overall, sector and poverty view",
         link: "https://devinit.org/data/tracking-aid-international-development-real-time/?nav=header",
         linkgh: "https://github.com/devinit/aid-tracker-interactive"
     },
