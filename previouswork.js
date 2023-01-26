@@ -21,6 +21,39 @@ const projs = [
         projdesc: "Interactive profiles showing data disaggregated by country on various nutrition metrics",
         link: "https://globalnutritionreport.org/resources/nutrition-profiles/",
         linkgh: ""
+    },
+    {
+      id: "covid",
+      filename: "covid.jpg",
+      projtitle: "How are aid budgets changing due to the Covid-19 crisis?",
+      projshorttitle: "Factsheet",
+      projghshorttitle: "Not publicly available",
+      projdates: "July 2020",
+      projdesc: "Analytical factsheet of budget changes early during the COVID pandemic",
+      link: "https://devinit.org/resources/how-are-aid-budgets-changing-due-covid-19-crisis/",
+      linkgh: ""
+    },
+    {
+      id: "ukaid",
+      filename: "ukaid.jpg",
+      projtitle: "Cuts to the UK 2020 aid budget: What IATI data tells us",
+      projshorttitle: "Briefing",
+      projghshorttitle: "Not publicly available",
+      projdates: "February 2021",
+      projdesc: "Briefing on cuts to the UK 2020 aid budget using IATI data",
+      link: "https://devinit.org/resources/cuts-uk-2020-aid-budget-iati-data/",
+      linkgh: ""
+    },
+    {
+      id: "disabilityaid",
+      filename: "disabilityaid.jpg",
+      projtitle: "Key trends in aid targeting persons with intellectual disabilities",
+      projshorttitle: "Blog",
+      projghshorttitle: "Not publicly available",
+      projdates: "October 2020",
+      projdesc: "Blog outlining three key trends in how ODA is targeting persons with intellectual disabilities",
+      link: "https://devinit.org/blog/key-trends-aid-targeting-persons-intellectual-disabilities/",
+      linkgh: ""
     }
 ]
 
