@@ -1,5 +1,29 @@
 const projs = [
     {
+      id: "landscape",
+      filename: "landscape.jpg",
+      filedesc: "A bar chart showing development assistance for mental health (DAMH) as a proportion of development assistance for health (DAH) from the top development actors between 2012 and 2021",
+      projtitle: "Financing of mental health: the current situation and ways forward",
+      projshorttitle: "Report",
+      projghshorttitle: "Not publicly available",
+      projdates: "June 2023 - October 2023",
+      projdesc: "A comprehensive landscape analysis of global mental health finance that underscores the critical need for immediate and sustained investment in mental health worldwide in order to realise mental health as a universal human right.",
+      link: "https://unitedgmh.org/knowledge-hub/financing-mental-health-current-status-and-future-prospects/?utm_campaign=Finance-Brief-2023&utm_medium=social&utm_source=United-LI-page",
+      linkgh: ""
+    },
+    {
+      id: "paf",
+      filename: "paf.jpg",
+      filedesc: "A bar chart showing the comparison between pre-arranged financing (PAF) volumes reported to the OECD DAC CRS and IATI in 2021 by major donors",
+      projtitle: "State of Pre-arranged Financing for Disasters 2023. Improving data reporting: Near real-time tracking",
+      projshorttitle: "Report",
+      projghshorttitle: "Not publicly available",
+      projdates: "March 2023 - November 2023",
+      projdesc: "A report collating the best available data to start to assess and monitor annually the state of pre-arranged financing supported with international development financing in low-and middle-income countries.",
+      link: "https://www.disasterprotection.org/publications-centre/the-state-of-pre-arranged-financing-for-disasters-2023",
+      linkgh: ""
+    },
+    {
         id: "countdown",
         filename: "countdown.jpg",
         filedesc: "A scatter chart showing wellbeing scores and their relationship with GDP per capita.",
