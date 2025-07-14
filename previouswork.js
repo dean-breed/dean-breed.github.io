@@ -1,5 +1,53 @@
 const projs = [
     {
+      id: "breathe",
+      filename: "breathe.jpg",
+      filedesc: "An infographic showing the economic impact of meeting the updated WHO Road Map for human-made air pollution",
+      projtitle: "Breathing Life into Cities: The Health and Economic Opportunities of Action for Clean Air",
+      projshorttitle: "Report",
+      projghshorttitle: "Not publicly available",
+      projdates: "January 2025 - March 2025",
+      projdesc: "An analysis of the clean air benefits delivered by a selection of 63 diverse cities, spanning 21 countries and five continents, with a population of more than 450 million people under the updated World Health Organization Road Map",
+      link: "https://breathecities.org/health-economic-benefits-cities-clean-air/",
+      linkgh: ""
+    },
+    {
+      id: "mind",
+      filename: "mind.jpg",
+      filedesc: "A bar chart showing the total number of admissions to mental hopsitals by country income group",
+      projtitle: "Out of sight, out of mind: The human rights case for ending institutionalisation in mental healthcare",
+      projshorttitle: "Report",
+      projghshorttitle: "Not publicly available",
+      projdates: "September 2024 - December 2024",
+      projdesc: "A report covering what institutions are, the people facing institutionalisation as well as what impact it has on them and their caregivers, including mental health professionals.",
+      link: "https://unitedgmh.org/app/uploads/2025/07/Out-of-sight-out-of-mind-1.pdf",
+      linkgh: ""
+    },
+    {
+      id: "paf2",
+      filename: "paf2.jpg",
+      filedesc: "A combined bar and line chart showing the international development financing for PAF as a proportion of total crisis financing between 2017 and 2022",
+      projtitle: "State of Pre-arranged Financing for Disasters 2024",
+      projshorttitle: "Report",
+      projghshorttitle: "Not publicly available",
+      projdates: "February 2024 - August 2024",
+      projdesc: "A report on the level of effort of international development donors to support a shift towards arranging financing for disasters, before shocks happen.",
+      link: "https://www.disasterprotection.org/publications-centre/the-state-of-pre-arranged-financing-for-disasters-2024",
+      linkgh: ""
+    },
+    {
+      id: "gatc",
+      filename: "gatc.jpg",
+      filedesc: "A sunburst chart showing development assistance for NCDs by donor 2018 and 2021",
+      projtitle: "Tracking NCD funding flows: Urgent calls and global solutions",
+      projshorttitle: "Report",
+      projghshorttitle: "Not publicly available",
+      projdates: "September 2023 - June 2024",
+      projdesc: "A report focusing on flows towards NCD policies and services, as well as the risk factors of tobacco and alcohol, reported to the OECD DAC CRS between 2018 and 2021.",
+      link: "https://ncdalliance.org/resources/tracking-ncd-funding-flows-urgent-calls-and-global-solutions",
+      linkgh: ""
+    },
+    {
       id: "landscape",
       filename: "landscape.jpg",
       filedesc: "A bar chart showing development assistance for mental health (DAMH) as a proportion of development assistance for health (DAH) from the top development actors between 2012 and 2021",
